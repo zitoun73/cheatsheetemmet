@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Exo:400,900' rel=
+    'stylesheet' type='text/css'>
+    <meta charset="utf-8">
+
+    <title>emmet cheat</title>
+</head>
+
+<body>
+    <p id="top">
+    </p>
+
+
+    <header>
+        <div class="container-fluid">
+            <img alt="logo emmet" class="img-circle" src="logo-large.png">
+
+            <h1>emmet plugin</h1>
+
+
+            <form class="navbar-form navbar-right" role="search">
+                <div class="form-group">
+                    <input class="form-control" placeholder="Search" type=
+                    "text"> <button class="btn btn-default" type=
+                    "submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+
+        <ul class="nav nav-pills">
+            <li class="active" role="presentation">
+                <a href="http://docs.emmet.io/cheat-sheet/">more</a>
+            </li>
+
+
+            <li class="active" role="presentation">
+                <a href="http://emmet.io/download/">load</a>
+            </li>
+
+
+            <li class="active" role="presentation">
+                <a href=
+                "http://telecharger.tomsguide.fr/Logiciels-Editeur-de-texte,0702-6977.html">
+                text editor</a>
+            </li>
+        </ul>
+    </header>
+
+
+    <h2>definition:</h2>
+
+
+    <p>Emmet is a plugin for many popular text editors which greatly improves
+    HTML & CSS workflow. It is an essential toolkit for Web Developers. You may
+    have heard Zen Coding before.<br>
+    It has now changed to Emmet. By instantly expanding simple abbreviations
+    into complex code snippets, Emmet can turn you into a more productive
+    developer.<br></p>
+
+
+    <section id="syntaxe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 text-center">
+                    <h3>Syntaxe :</h3>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <h4>Child: &gt;</h4>
+
+
+                    <p><em>nav&gt;ul&gt;li</em><br>
+                    <br>
+                    &lt;nav&gt;<br>
+                    &lt;ul&gt;<br>
+                    &lt;li&gt;&lt;/li&gt;<br>
+                    &lt;/ul&gt;<br>
+                    &lt;/nav&gt;</p>
+                </div>
+
+
+                <div class="col-sm-4 text-center">
+                    <h4>Multiplications: *</h4>
+
+
+                    <p><em>ul&gt;li.item$*5</em><br>
+                    <br>
+                    &lt;ul&gt;<br>
+                    &lt;li class="item1"&gt;&lt;/li&gt;<br>
+                    &lt;li class="item2"&gt;&lt;/li&gt;<br>
+                    &lt;li class="item3"&gt;&lt;/li&gt;<br>
+                    &lt;li class="item4"&gt;&lt;/li&gt;<br>
+                    &lt;li class="item5"&gt;&lt;/li&gt;<br>
+                    &lt;/ul&gt;</p>
+                </div>
+
+
+                <div class="col-sm-4 text-center">
+                    <h4>Sibling: +</h4>
+
+
+                    <p><em>div+p+bq</em><br>
+                    <br>
+                    &lt;div&gt;&lt;/div&gt;<br>
+                    &lt;p&gt;&lt;/p&gt;<br>
+                    &lt;blockquote&gt;&lt;/blockquote&gt;</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <h4>ID and CLASS attributes</h4>
+
+
+                    <p><em>#header</em><br>
+                    <br>
+                    &lt;div id="header"&gt;&lt;/div&gt;<br>
+                    <br>
+                    <em>.title</em><br>
+                    <br>
+                    &lt;div class="title"&gt;&lt;/div&gt;<br>
+                    <br>
+                    <em>form#search.wide</em><br>
+                    <br>
+                    &lt;form id="search" class="wide"&gt;&lt;/form&gt;<br>
+                    <br>
+                    <em>p.class1.class2.class3</em><br>
+                    <br>
+                    &lt;p class="class1 class2 class3"&gt;&lt;/p&gt;</p>
+                </div>
+
+
+                <div class="col-sm-4 text-center">
+                    <h4>Climb-up: ^</h4>
+
+
+                    <p><em>div+div&gt;p&gt;span+em^bq</em><br>
+                    <br>
+                    &lt;div&gt;&lt;/div&gt;<br>
+                    &lt;div&gt;<br>
+                    &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;<br>
+
+                    &lt;blockquote&gt;&lt;/blockquote&gt;<br>
+                    &lt;/div&gt;<br>
+                    <br>
+                    <em>div+div&gt;p&gt;span+em^^bq</em><br>
+                    <br>
+                    &lt;div&gt;&lt;/div&gt;<br>
+                    &lt;div&gt;<br>
+                    &lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;<br>
+
+                    &lt;/div&gt;<br>
+                    &lt;blockquote&gt;&lt;/blockquote&gt;</p>
+                </div>
+
+
+                <div class="col-sm-4 text-center">
+                    <h4>Text: {}</h4>
+
+
+                    <p><em>a{Click me}</em><br>
+                    <br>
+                    &lt;a href=""&gt;Click me&lt;/a&gt;<br>
+                    <br>
+                    <em>p&gt;{Click }+a{here}+{ to continue}</em><br>
+                    <br>
+                    &lt;p&gt;Click &lt;a href=""&gt;here&lt;/a&gt; to
+                    continue&lt;/p&gt;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="CSS">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 text-center">
+                    <h2>CSS :</h2>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <p><em>pos:a</em><br>
+                    position:absolute;</p>
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+                    <p><em>ta:c</em><br>
+                    text-align:center;</p>
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+                    <p><em>m:a</em><br>
+                    margin:auto;</p>
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+                    <p><em>bgc</em><br>
+                    background-color:#fff;</p>
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+                    <p><em>list:n</em><br>
+                    list-style-type:none;</p>
+                </div>
+
+
+                <div class="col-lg-4 text-center">
+                    <p><em>ta:c</em><br>
+                    text-align:center;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="button">
+      <a href="#top"><button type="button" class="btn btn-default">remonter haut de page</button></a>
+</div>
+
+    <footer>
+        <div class="footer">
+            <a href="https://twitter.com/emmetio?lang=fr"><img src=
+            "twitter.png"></a>
+
+            <p>&copy;2016 olivier seignez</p>
+
+        </div>
+
+
+
+
+    </footer>
+</body>
+</html>
